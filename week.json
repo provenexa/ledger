@@ -1,0 +1,61 @@
+{
+ "week_to": "2026-10-03",
+ "label": "week to 3 Oct 2026",
+ "rows": [
+  {
+   "company": "Gochem Speciality Chemicals",
+   "what": "Launches Vegetable Wax Refining Plant",
+   "where": "SL Hitech, West Bengal",
+   "stage": "Clearance stage",
+   "stage_class": "s-land",
+   "day": "3 Oct",
+   "url": "https://parivesh.nic.in/utildoc/1243120777_1790141916728.pdf#SIA/WB/IND3/576319/2026",
+   "source": "PARIVESH agenda",
+   "trade": "steel"
+  },
+  {
+   "company": "Indian Oil Corporation",
+   "what": "Gujarat refinery to expand to 18 million metric tons by FY27",
+   "where": "Gujarat",
+   "stage": "Being set up",
+   "stage_class": "s-build",
+   "day": "2 Oct",
+   "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/indian-oil-gujarat-refinery-to-start-operating-at-expanded-capacity-by-end-of-fy27-executive-says/articleshow/134589095.cms",
+   "source": "Economic Times",
+   "trade": "process"
+  },
+  {
+   "company": "Reliance Industries",
+   "what": "To Invest ₹1 Lakh Crore in Andhra Pradesh Biogas Projects",
+   "where": "Andhra Pradesh",
+   "stage": "Capex announced",
+   "stage_class": "s-build",
+   "day": "3 Oct",
+   "url": "https://www.deccanherald.com/india/andhra-pradesh/reliance-plans-rs-1-lakh-crore-investment-in-andhra-pradesh-says-anant-ambani-4168163",
+   "source": "Deccan Herald",
+   "trade": "mep"
+  },
+  {
+   "company": "Allmaker Technologies",
+   "what": "Launches Pharma Intermediate Project",
+   "where": "Sonipat, Haryana",
+   "stage": "Clearance stage",
+   "stage_class": "s-land",
+   "day": "3 Oct",
+   "url": "https://parivesh.nic.in/utildoc/1241387494_1789843431469.pdf#SIA/HR/IND3/586987/2026",
+   "source": "PARIVESH agenda",
+   "trade": "build"
+  },
+  {
+   "company": "Indo Amines",
+   "what": "Proposes pesticide and specialty chemical plant in Dombivali",
+   "where": "Maharashtra",
+   "stage": "Clearance stage",
+   "stage_class": "s-land",
+   "day": "3 Oct",
+   "url": "https://parivesh.nic.in/utildoc/1243388117_1790343297947.pdf#IA/MH/IND3/588433/2026",
+   "source": "PARIVESH agenda",
+   "trade": "local"
+  }
+ ]
+}

@@ -22,7 +22,8 @@
    "day": "4 Oct",
    "url": "https://parivesh.nic.in/utildoc/1244000311_1791043383941.pdf#SIA/MH/IND1/593559/2026",
    "source": "PARIVESH agenda",
-   "trade": "process"
+   "trade": "process",
+   "logo": "https://ledger.provenexa.com/logos/tata-steel.png"
   },
   {
    "company": "Gochem Speciality Chemicals",
@@ -55,7 +56,8 @@
    "day": "2 Oct",
    "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/indian-oil-gujarat-refinery-to-start-operating-at-expanded-capacity-by-end-of-fy27-executive-says/articleshow/134589095.cms",
    "source": "Economic Times",
-   "trade": "local"
+   "trade": "local",
+   "logo": "https://ledger.provenexa.com/logos/indian-oil.png"
   }
  ]
 }

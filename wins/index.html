@@ -5,20 +5,20 @@
 :root{--paper:#F5F6F4;--card:#fff;--ink:#16202A;--mute:#5E6B76;--hair:#DEE3E6;--accent:#0F6B5C;--chip:#E8EFEC}
 @media (prefers-color-scheme:dark){:root{--paper:#11161B;--card:#192028;--ink:#E7EDF2;--mute:#9AA8B4;--hair:#2B3440;--accent:#5CC8B0;--chip:#1E2A30}}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
-.wrap{max-width:880px;margin:0 auto;padding:24px 16px 48px}a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 48px}a{color:var(--accent)}
 .kick{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
 h1{font-size:28px;line-height:1.2;margin:6px 0 8px}.sub{color:var(--mute);margin:0 0 14px;max-width:62ch}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 6px}.chips a{background:var(--chip);border-radius:999px;padding:4px 10px;
 text-decoration:none;color:var(--ink);font-size:13px}.chips i,h2 i{font-style:normal;color:var(--mute);font-weight:400}
-h2{font-size:19px;margin:28px 0 8px}ul{list-style:none;margin:0;padding:0;background:var(--card);border:1px solid var(--hair);border-radius:10px}
-li{padding:11px 14px;border-bottom:1px solid var(--hair)}li:last-child{border-bottom:0}
+h2{font-size:19px;margin:28px 0 8px}ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+li{background:var(--card);border:1px solid var(--hair);border-radius:10px}
 .h{display:flex;justify-content:space-between;gap:12px;align-items:baseline}.v{white-space:nowrap;font-weight:600;color:var(--accent)}
 .t{margin-top:3px;font-size:16px;font-weight:600;color:var(--ink)}.v.nv{color:var(--mute);font-weight:400;font-size:13px}
 .f{display:flex;flex-wrap:wrap;gap:6px 18px;margin:8px 0 6px}.f span{font-size:13px}.f i,.w i{display:block;font-style:normal;font-size:10.5px;
 letter-spacing:.07em;text-transform:uppercase;color:var(--mute)}.w{font-size:13.5px;margin-top:6px}.s{font-size:12px;color:var(--mute);margin-top:7px}
 li{padding:13px 16px}
 .lead{margin:18px 0 4px}.lead>span{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
-.lead ul{border:2px solid var(--accent)}
+.lead ul{grid-template-columns:1fr}.lead li{border:2px solid var(--accent)}@media (max-width:760px){ul{grid-template-columns:1fr}}
 details{margin-top:8px}summary{cursor:pointer;color:var(--accent);padding:4px 0}
 .cta{margin-top:32px;padding:16px;border-radius:10px;background:var(--chip)}.cta b{display:block;margin-bottom:4px}
 .foot{margin-top:24px;font-size:12px;color:var(--mute)}
@@ -34,6 +34,6 @@ news and local-language papers. Updated every morning.</p>
 <div class="cta"><b>Want this for your state and trade, every day?</b>We set up a private page for your company with every new
 site contract and project that fits what you sell, each linked to its public source. Two weeks free.
 Reply to our email or write to <a href="mailto:research@provenexa.com">research@provenexa.com</a>.</div>
-<p class="foot">Built 08 Oct 2026, 18:29 IST · Provenexa Research · Facts as reported in the linked filings and articles;
+<p class="foot">Built 08 Oct 2026, 18:32 IST · Provenexa Research · Facts as reported in the linked filings and articles;
 a lowest-bidder or letter-of-intent stage is shown as reported.</p>
 </div></body></html>

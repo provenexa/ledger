@@ -1,7 +1,42 @@
 {
- "week_to": "2026-10-04",
- "label": "week to 4 Oct 2026",
+ "week_to": "2026-10-11",
+ "label": "week to 11 Oct 2026",
  "rows": [
+  {
+   "company": "Trentar",
+   "what": "Signs MoU with Maharashtra for ₹30 000 Cr Hyperscale Data Centre Project",
+   "where": "Maharashtra",
+   "stage": "Clearance stage",
+   "stage_class": "s-land",
+   "day": "10 Oct",
+   "url": "https://www.epcworld.in/trentar-signs-mou-with-maharashtra-government-for-%e2%82%b930000-crore-hyperscale-data-centre-project/",
+   "source": "epcworld.in",
+   "trade": "steel"
+  },
+  {
+   "company": "Hindustan Zinc",
+   "what": "Proposes expansion of Dariba smelter complex",
+   "where": "Rajsamand, Rajasthan",
+   "stage": "Clearance stage",
+   "stage_class": "s-land",
+   "day": "6 Oct",
+   "url": "https://parivesh.nic.in/utildoc/1243812878_1791279882889.pdf#IA/RJ/IND1/583675/2026",
+   "source": "PARIVESH agenda",
+   "trade": "process",
+   "logo": "https://ledger.provenexa.com/logos/hindustan-zinc.png"
+  },
+  {
+   "company": "Adani Power",
+   "what": "Lays foundation stone for 3,200‑MW thermal plant in Assam",
+   "where": "Dhubri, Assam",
+   "stage": "Being set up",
+   "stage_class": "s-build",
+   "day": "10 Oct",
+   "url": "https://www.sentinelassam.com/topheadlines/assam-cm-himanta-biswa-sarma-lays-foundation-stone-for-3200-mw-adani-chapar-project",
+   "source": "sentinelassam.com",
+   "trade": "mep",
+   "logo": "https://ledger.provenexa.com/logos/adani-power.png"
+  },
   {
    "company": "Reliance Industries",
    "what": "To Invest ₹1 Lakh Crore in Andhra Pradesh Biogas Projects",
@@ -11,53 +46,19 @@
    "day": "4 Oct",
    "url": "https://www.deccanherald.com/india/andhra-pradesh/reliance-plans-rs-1-lakh-crore-investment-in-andhra-pradesh-says-anant-ambani-4168163",
    "source": "Deccan Herald",
-   "trade": "steel"
+   "trade": "build",
+   "logo": "https://ledger.provenexa.com/logos/reliance-industries.png"
   },
   {
-   "company": "Tata Steel",
-   "what": "Expands production capacity in Maharashtra",
-   "where": "Maharashtra",
+   "company": "Arham Ispat",
+   "what": "Proposes integrated steel plant in Chhattisgarh",
+   "where": "Bemetara, Chhattisgarh",
    "stage": "Clearance stage",
    "stage_class": "s-land",
-   "day": "4 Oct",
-   "url": "https://parivesh.nic.in/utildoc/1244000311_1791043383941.pdf#SIA/MH/IND1/593559/2026",
+   "day": "6 Oct",
+   "url": "https://parivesh.nic.in/utildoc/1243812878_1791279882889.pdf#IA/CG/IND1/581105/2026",
    "source": "PARIVESH agenda",
-   "trade": "process",
-   "logo": "https://ledger.provenexa.com/logos/tata-steel.png"
-  },
-  {
-   "company": "Gochem Speciality Chemicals",
-   "what": "Launches Vegetable Wax Refining Plant",
-   "where": "SL Hitech, West Bengal",
-   "stage": "Clearance stage",
-   "stage_class": "s-land",
-   "day": "3 Oct",
-   "url": "https://parivesh.nic.in/utildoc/1243120777_1790141916728.pdf#SIA/WB/IND3/576319/2026",
-   "source": "PARIVESH agenda",
-   "trade": "mep"
-  },
-  {
-   "company": "Allmaker Technologies",
-   "what": "Launches Pharma Intermediate Project",
-   "where": "Sonipat, Haryana",
-   "stage": "Clearance stage",
-   "stage_class": "s-land",
-   "day": "3 Oct",
-   "url": "https://parivesh.nic.in/utildoc/1241387494_1789843431469.pdf#SIA/HR/IND3/586987/2026",
-   "source": "PARIVESH agenda",
-   "trade": "build"
-  },
-  {
-   "company": "Indian Oil Corporation",
-   "what": "Gujarat refinery to expand to 18 million metric tons by FY27",
-   "where": "Gujarat",
-   "stage": "Being set up",
-   "stage_class": "s-build",
-   "day": "2 Oct",
-   "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/indian-oil-gujarat-refinery-to-start-operating-at-expanded-capacity-by-end-of-fy27-executive-says/articleshow/134589095.cms",
-   "source": "Economic Times",
-   "trade": "local",
-   "logo": "https://ledger.provenexa.com/logos/indian-oil.png"
+   "trade": "staffing"
   }
  ]
 }

@@ -102,6 +102,8 @@ tb.onclick=()=>{th=modes[(modes.indexOf(th)+1)%3];try{localStorage.setItem('lpTh
 var box=document.getElementById('install'),btn=document.getElementById('installbtn'),txt=document.getElementById('installtxt'),ev=null;
 var standalone=window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
 if(standalone||!box)return;
+// 18 Oct: Samsung Internet wraps the app in an old-style package that Google Play Protect blocks as "unsafe"; Chrome's install is fine
+if(/SamsungBrowser/i.test(navigator.userAgent)){txt.textContent="To install Next Moves as an app, open this page in Chrome and tap 'Install the app'.";box.hidden=false;return;}
 window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();ev=e;box.hidden=false;btn.hidden=false;});
 btn.addEventListener('click',function(){if(!ev)return;ev.prompt();ev.userChoice.then(function(){ev=null;box.hidden=true;});});
 window.addEventListener('appinstalled',function(){box.hidden=true;});

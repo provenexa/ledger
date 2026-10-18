@@ -1,9 +1,9 @@
 // Next Moves installable app (Sumit, 18 Oct 2026): lets the /next/ pages install to the home screen and open offline.
 // Pages: network first (stories update every morning), cached copy only when offline. Pages stay encrypted in the cache.
 // Alerts (18 Oct): the push itself is empty; we fetch the counts from the push helper and write one line. Never company names.
-const CACHE = "next-moves-v3";
+const CACHE = "next-moves-v4";
 const SHELL = ["/next/", "/next/manifest.webmanifest", "/next/icons/icon-192.png", "/next/icons/icon-512.png"];
-const PUSH_API = "https://provenexa-next-push.sumit-jaswal.workers.dev";
+const PUSH_API = "https://provenexa-next-push.provenexa.workers.dev";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -61,7 +61,7 @@ self.addEventListener("push", (event) => {
       }
     } catch (e) { /* offline: the general line above still shows */ }
     await self.registration.showNotification("Next Moves", {
-      body, icon: "/next/icons/icon-192.png", badge: "/next/icons/icon-192.png", tag: "next-moves-daily", data: { url },
+      body, icon: "/next/icons/icon-192.png", badge: "/next/icons/badge-96.png", tag: "next-moves-daily", data: { url },
     });
   })());
 });

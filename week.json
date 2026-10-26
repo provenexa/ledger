@@ -1,60 +1,60 @@
 {
- "week_to": "2026-10-18",
- "label": "week to 18 Oct 2026",
+ "week_to": "2026-10-25",
+ "label": "week to 25 Oct 2026",
  "rows": [
   {
-   "company": "Balkrishna Industries",
-   "what": "Expands Carbon Black Production Capacity",
-   "where": "Kachchh, Gujarat",
-   "stage": "Clearance stage",
-   "stage_class": "s-land",
-   "day": "16 Oct",
-   "url": "https://parivesh.nic.in/utildoc/1245454863_1792151718925.pdf#IA/GJ/IND2/592280/2026",
-   "source": "PARIVESH agenda",
-   "trade": "steel"
-  },
-  {
-   "company": "SeasonTwo Living",
-   "what": "Partners with RPS Group for senior‑living communities",
-   "where": "",
-   "stage": "Clearance stage",
-   "stage_class": "s-land",
-   "day": "15 Oct",
-   "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/seasontwo-living-and-rps-group-inks-partnership-to-develop-senior-living-communities-in-10-cities/articleshow/134967979.cms",
-   "source": "Economic Times",
-   "trade": "process"
-  },
-  {
-   "company": "Indo Rama Synthetics",
-   "what": "Invests ₹200 Cr in Nagpur Specialty Fibre Plant",
-   "where": "Nagpur, Maharashtra",
-   "stage": "Being set up",
-   "stage_class": "s-build",
-   "day": "18 Oct",
-   "url": "https://www.indianchemicalnews.com/https://www.indianchemicalnews.com/general/indo-rama-synthetics-invests-rs-200-crore-into-specialty-fibre-filament-at-nagpur-plant-32319",
-   "source": "indianchemicalnews.com",
-   "trade": "mep"
-  },
-  {
-   "company": "Infrastructure",
-   "what": "Tinna Rubber & Infrastructure Ltd. Registers 19 Acres in Andhra Pradesh",
-   "where": "Andhra Pradesh",
-   "stage": "Clearance stage",
-   "stage_class": "s-land",
-   "day": "16 Oct",
-   "url": "https://nsearchives.nseindia.com/corporate/TINNARUBBER_15102026225853_TRIL_SEIntimation_Andhra_Land_15Oct26.pdf",
-   "source": "NSE filing",
-   "trade": "build"
-  },
-  {
-   "company": "ReNew Wind Energy",
-   "what": "Signs Rs 700 Billion MoU with Maharashtra for Green Data‑Centre Park",
+   "company": "Trentar",
+   "what": "Signs MoU with Maharashtra for ₹30 000 Cr Hyperscale Data Centre Project",
    "where": "Maharashtra",
    "stage": "Clearance stage",
    "stage_class": "s-land",
-   "day": "13 Oct",
-   "url": "https://indianinfrastructure.com/2026/10/13/renew-signs-rs-700-billion-mou-with-maharashtra-government-to-develop-green-integrated-data-centre-park-in-mmr/",
-   "source": "indianinfrastructure.com",
+   "day": "19 Oct",
+   "url": "https://www.epcworld.in/trentar-signs-mou-with-maharashtra-government-for-%e2%82%b930000-crore-hyperscale-data-centre-project/",
+   "source": "epcworld.in",
+   "trade": "steel"
+  },
+  {
+   "company": "Arcelormittal Nippon Steel India",
+   "what": "Expands Iron Ore Beneficiation in Chhattisgarh",
+   "where": "Chhattisgarh",
+   "stage": "Clearance stage",
+   "stage_class": "s-land",
+   "day": "21 Oct",
+   "url": "https://parivesh.nic.in/utildoc/1245747095_1792581719130.pdf#SIA/CG/IND1/588969/2026",
+   "source": "PARIVESH agenda",
+   "trade": "process"
+  },
+  {
+   "company": "JSW Steel",
+   "what": "JSW and JFE add 5 MT capacity at Odisha JV plant",
+   "where": "Odisha",
+   "stage": "Being set up",
+   "stage_class": "s-build",
+   "day": "24 Oct",
+   "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/steel/jsw-steel-and-japans-jfe-to-add-5-mt-steel-capacity-at-odisha-jv-plant-with-rs-7500-cr-investment/articleshow/135145373.cms",
+   "source": "Economic Times",
+   "trade": "mep"
+  },
+  {
+   "company": "Newzone India",
+   "what": "Proposes thermal plant in Anuppur",
+   "where": "Anuppur, Madhya Pradesh",
+   "stage": "Clearance stage",
+   "stage_class": "s-land",
+   "day": "23 Oct",
+   "url": "https://parivesh.nic.in/utildoc/1245915542_1792753764741.pdf#IA/MP/THE/591672/2026",
+   "source": "PARIVESH agenda",
+   "trade": "build"
+  },
+  {
+   "company": "Lloyds Metals And Energy",
+   "what": "Expands Pellet Plant in Maharashtra",
+   "where": "Gadchiroli, Maharashtra",
+   "stage": "Clearance stage",
+   "stage_class": "s-land",
+   "day": "21 Oct",
+   "url": "https://parivesh.nic.in/utildoc/1245703638_1792566795281.pdf#IA/MH/IND1/594308/2026",
+   "source": "PARIVESH agenda",
    "trade": "staffing"
   }
  ]

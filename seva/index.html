@@ -6,53 +6,90 @@
 <meta name="robots" content="noindex">
 <title>Early Jobs Map: samples</title>
 <style>
-  :root { --navy:#1B2A5C; --orange:#F28C28; --ink:#1F2937; --muted:#4B5563; --bg:#F5F6FA; --card:#FFFFFF; --line:#E2E5EE; }
-  * { box-sizing: border-box; }
-  body { margin:0; background:var(--bg); color:var(--ink); font-family: "Segoe UI", Arial, sans-serif; line-height:1.5; }
-  header { background:var(--navy); color:#fff; padding:28px 16px; }
-  header .wrap, main { max-width:960px; margin:0 auto; }
-  header p.kicker { color:var(--orange); letter-spacing:3px; font-size:13px; font-weight:700; margin:0 0 8px; text-transform:uppercase; }
-  header h1 { margin:0 0 6px; font-size:30px; }
-  header p { margin:0; color:#C9D2EC; }
-  main { padding:24px 16px 48px; display:grid; gap:20px; }
-  section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px; }
-  section h2 { margin:0 0 4px; color:var(--navy); font-size:20px; }
-  section p { margin:0 0 12px; color:var(--muted); }
-  img { max-width:100%; height:auto; border:1px solid var(--line); border-radius:10px; display:block; }
-  a { color:var(--navy); font-weight:600; }
-  .two { display:grid; grid-template-columns: 1fr; gap:16px; }
-  @media (min-width: 760px) { .two { grid-template-columns: 1.4fr 1fr; } }
-  footer { text-align:center; color:var(--muted); font-size:13px; padding:0 16px 32px; }
+:root{--bg:#f2f1ed;--card:#fff;--ink:#111;--body:#2b2b2b;--muted:#6b6b6b;--hair:#d4d2ca;--line:#111;--acc:#1d5c45;--acc-soft:#e0ebe5;--on-acc:#fff;
+  --sans:Inter,"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0e0f0e;--card:#171816;--ink:#f1f0ec;--body:#d6d4cd;--muted:#9b998f;--hair:#34352f;--line:#5a5b54;--acc:#5fb58d;--acc-soft:#18291f;--on-acc:#0e0f0e}}
+:root[data-theme=dark]{--bg:#0e0f0e;--card:#171816;--ink:#f1f0ec;--body:#d6d4cd;--muted:#9b998f;--hair:#34352f;--line:#5a5b54;--acc:#5fb58d;--acc-soft:#18291f;--on-acc:#0e0f0e}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--body);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--acc);font-weight:600}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+.topbar{background:var(--card);border-bottom:1px solid var(--line)}
+.top{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;color:var(--ink);text-decoration:none;white-space:nowrap}
+.logo{width:26px;height:26px;flex:none}
+.themebtn{border:1px solid var(--hair);background:transparent;color:var(--body);padding:5px 10px;font:600 13px var(--sans);cursor:pointer}
+.hero{border-bottom:3px solid var(--ink);padding:32px 0 28px}
+.kicker{display:inline-block;background:var(--acc);color:var(--on-acc);font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px}
+h1{font-size:clamp(30px,6.5vw,50px);line-height:1.05;font-weight:800;letter-spacing:-.035em;margin:14px 0 12px;color:var(--ink);max-width:18ch}
+.lead{font-size:17px;margin:0;max-width:60ch}
+main{padding:28px 0 44px}
+section{background:var(--card);border:1px solid var(--line);border-top-width:0;padding:22px 20px}
+section:first-of-type{border-top-width:1px;border-left:6px solid var(--acc)}
+.n{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
+h2{margin:6px 0 6px;font-size:clamp(20px,3.2vw,25px);line-height:1.2;color:var(--ink);font-weight:800;letter-spacing:-.01em}
+section p{margin:0 0 12px}
+img{max-width:100%;height:auto;border:1px solid var(--line);display:block}
+.two{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.two>*{min-width:0}
+@media (min-width:760px){.two{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}}
+.btn{display:inline-block;background:var(--acc);color:var(--on-acc);text-decoration:none;font-weight:800;padding:10px 16px;margin:0 0 14px}
+footer{border-top:3px solid var(--ink);padding:18px 0 32px;font-size:13.5px;color:var(--muted)}
+footer p{margin:0;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between}
 </style>
 </head>
 <body>
-<header><div class="wrap">
-  <p class="kicker">Seva Innovation Challenge 2026 · Education and Employability</p>
-  <h1>Early Jobs Map for Maharashtra: samples</h1>
-  <p>What a pilot district gets: the live map, Marathi WhatsApp alerts and a one-page note each month.</p>
+<header class="topbar"><div class="wrap top">
+  <span class="brand">
+    <svg class="logo" viewBox="0 0 120 120" aria-hidden="true"><path d="M36 104 V24 H68 a26 26 0 0 1 0 52 H36" fill="none" stroke="currentColor" stroke-width="20" stroke-linecap="square" stroke-linejoin="miter"/><rect x="88" y="6" width="24" height="24" fill="var(--acc)"/></svg>
+    Provenexa Research
+  </span>
+  <button class="themebtn" id="theme">Dark</button>
 </div></header>
-<main>
+
+<div class="hero"><div class="wrap">
+  <span class="kicker">Seva Innovation Challenge 2026 · Education and Employability</span>
+  <h1>Early Jobs Map for Maharashtra: samples</h1>
+  <p class="lead">What a pilot district gets: the live map, Marathi WhatsApp alerts and a one-page note each month.</p>
+</div></div>
+
+<main class="wrap">
   <section>
-    <h2>1. The live map</h2>
-    <p>Updated every morning, in Marathi, Hindi and English. Filter by city, and switch between "institute" and "job seeker" views.
-       Open it: <a href="https://ledger.provenexa.com/early-jobs/">ledger.provenexa.com/early-jobs</a></p>
+    <span class="n">1</span>
+    <h2>The live map</h2>
+    <p>Updated every morning, in Marathi, Hindi and English. Filter by city, and switch between "institute" and "job seeker" views.</p>
+    <a class="btn" href="https://ledger.provenexa.com/early-jobs/">Open the live map</a>
     <img src="early_jobs_map_live_19oct.png" alt="The Early Jobs Map in Marathi on 19 Oct 2026: a city list on the left and cards for new plants and offices, each with the estimated number of people and the skills needed.">
   </section>
   <section class="two">
     <div>
-      <h2>2. A Marathi WhatsApp alert</h2>
+      <span class="n">2</span>
+      <h2>A Marathi WhatsApp alert</h2>
       <p>A real alert posted on 14 Oct 2026 to our Pune channel: a new plant at Tarapur, what it is, roughly how many people (our estimate),
          the skills it needs, and where to ask. We never recruit and never take money for jobs.</p>
     </div>
     <img src="marathi_alert_ngl_14oct.png" alt="Marathi WhatsApp alert card: NGL Fine-Chem, new plant started at Tarapur (Palghar), about 320 people (our estimate), skills: chemical plant operators, lab chemists, maintenance fitters, safety staff.">
   </section>
   <section>
-    <h2>3. The monthly district note</h2>
+    <span class="n">3</span>
+    <h2>The monthly district note</h2>
     <p>One page per district: new openings in the month and the trades they need, set against ITI seats in those trades.</p>
-    <p>Sample for Pune, October 2026: <a href="district_note_pune.pdf">open the PDF</a></p>
+    <a class="btn" href="district_note_pune.pdf">Open the Pune sample (PDF, October 2026)</a>
     <img src="district_note_pune.png" alt="One-page Pune district note, October 2026: five new openings in the last four weeks with their stage and the ITI trades they need, set against ITI seats and admissions in Pune district for 2024.">
   </section>
 </main>
-<footer>Provenexa Research · sumitjaswal@provenexa.com · Built only on public sources; job numbers on cards are our estimate.</footer>
+
+<footer><div class="wrap">
+  <p><span>Provenexa Research · sumitjaswal@provenexa.com · Built only on public sources; job numbers on cards are our estimate.</span></p>
+</div></footer>
+<script>
+(function(){const r=document.documentElement,b=document.getElementById('theme');
+ if(location.hash==='#light'||location.hash==='#dark')r.dataset.theme=location.hash.slice(1);
+ const dark=()=>r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+ const set=()=>{b.textContent=dark()?'Light':'Dark'};set();
+ b.onclick=()=>{r.dataset.theme=dark()?'light':'dark';set()};
+})();
+</script>
 </body>
 </html>
